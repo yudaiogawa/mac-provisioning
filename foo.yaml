@@ -1,0 +1,85 @@
+- hosts: 'local'
+  gather_facts: no
+
+  vars:
+    homebrew_repositories:
+      - caskroom/cask
+      - caskroom/versions
+
+    homebrew_packages:
+      - { name: ansible }
+      - { name: gdbm }
+      - { name: git }
+      - { name: git-flow }
+      - { name: libevent }
+      - { name: libyaml }
+      - { name: mas }
+      - { name: openssl }
+      - { name: openssl, state: linked, install_options: force }
+      - { name: pkg-config }
+      - { name: python }
+      - { name: readline }
+      - { name: sqlite }
+      - { name: tmux }
+
+    homebrew_cask_packages:
+      - { name: atom }
+      - { name: avast-security }
+      - { name: docker }
+      - { name: evernote }
+      - { name: firefox }
+      - { name: google-chrome }
+      - { name: istat-menus5 }
+      - { name: iterm2 }
+      - { name: intellij-idea }
+      - { name: karabiner-elements }
+      - { name: slack }
+      - { name: spotify }
+      - { name: 5kplayer }
+
+    mas_applications:
+      - { id: 497799835, name: Xcode }
+      - { id: 539883307, name: LINE }
+      - { id: 585829637, name: Todoist }
+      - { id: 634148309, name: LogicProX }
+      - { id: 1007457278, name: Realm Browser }
+      - { id: 1176895641, name: Spark }
+
+  tasks:
+    - osx_say:
+        msg: 'Start building the mac book environment'
+        voice: Victoria
+
+    - name: update homebrew
+      homebrew: update_homebrew=yes
+
+    - name: install homebrew packages
+      homebrew:
+        name: '{{ item.name }}'
+        state: '{{ item.state | default("present") }}'
+      with_items: '{{ homebrew_packages }}'
+
+    - name: add repositories by homebrew tap
+      homebrew_tap:
+        name: '{{ item }}'
+        state: present
+      with_items: '{{ homebrew_repositories }}'
+
+    - name: install homebrew cask packages
+      homebrew_cask:
+        name: '{{ item.name }}'
+        state: installed
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+      with_items: '{{ homebrew_cask_packages }}'
+
+    - name: get mas applications list
+      shell: mas list
+      register: mas_list
+      changed_when: False
+      always_run: True
+
+    - name: install applications by mas
+      shell: 'mas install {{ item.id }}'
+      when: '"{{ item.id }}" not in mas_list.stdout'
+      with_items: '{{ mas_applications }}'
