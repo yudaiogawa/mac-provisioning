@@ -1,5 +1,7 @@
 - hosts: 'local'
   gather_facts: no
+  roles:
+    - beginning
 
   vars:
     homebrew_repositories:
@@ -46,10 +48,6 @@
       - { id: 1176895641, name: Spark }
 
   tasks:
-    - osx_say:
-        msg: 'Start building the mac book environment'
-        voice: Victoria
-
     - name: update homebrew
       homebrew: update_homebrew=yes
 
