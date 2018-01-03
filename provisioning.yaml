@@ -83,3 +83,7 @@
       shell: 'mas install {{ item.id }}'
       when: '"{{ item.id }}" not in mas_list.stdout'
       with_items: '{{ mas_applications }}'
+
+    - osx_say:
+        msg: '終わったよ。'
+        voice: Kyoko
