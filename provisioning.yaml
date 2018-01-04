@@ -51,17 +51,17 @@
     - name: update homebrew
       homebrew: update_homebrew=yes
 
-    - name: install homebrew packages
-      homebrew:
-        name: '{{ item.name }}'
-        state: '{{ item.state | default("present") }}'
-      with_items: '{{ homebrew_packages }}'
-
     - name: add repositories by homebrew tap
       homebrew_tap:
         name: '{{ item }}'
         state: present
       with_items: '{{ homebrew_repositories }}'
+
+    - name: install homebrew packages
+      homebrew:
+        name: '{{ item.name }}'
+        state: '{{ item.state | default("present") }}'
+      with_items: '{{ homebrew_packages }}'
 
     - name: install homebrew cask packages
       homebrew_cask:
