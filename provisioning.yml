@@ -23,6 +23,7 @@
       - { name: readline }
       - { name: sqlite }
       - { name: tmux }
+      - { name: zsh }
 
     homebrew_cask_packages:
       - { name: atom }
