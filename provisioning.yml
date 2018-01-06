@@ -34,6 +34,9 @@
       - { name: google-chrome }
       - { name: istat-menus5 }
       - { name: iterm2 }
+      - { name: java }
+      - { name: java6 }
+      - { name: java8 }
       - { name: intellij-idea }
       - { name: karabiner-elements }
       - { name: slack }
