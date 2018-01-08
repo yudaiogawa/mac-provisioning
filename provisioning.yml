@@ -10,6 +10,7 @@
 
     homebrew_packages:
       - { name: ansible }
+      - { name: carthage }
       - { name: gdbm }
       - { name: git }
       - { name: git-flow }
@@ -41,6 +42,7 @@
       - { name: java8 }
       - { name: intellij-idea }
       - { name: karabiner-elements }
+      - { name: kindle }
       - { name: slack }
       - { name: spotify }
       - { name: 5kplayer }
