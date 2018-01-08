@@ -2,6 +2,7 @@
   gather_facts: no
   roles:
     - beginning
+    - homebrew-tap
 
   vars:
     homebrew_repositories:
@@ -58,12 +59,6 @@
   tasks:
     - name: update homebrew
       homebrew: update_homebrew=yes
-
-    - name: add repositories by homebrew tap
-      homebrew_tap:
-        name: '{{ item }}'
-        state: present
-      with_items: '{{ homebrew_repositories }}'
 
     - name: install homebrew packages
       homebrew:
