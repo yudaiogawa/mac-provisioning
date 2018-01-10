@@ -4,6 +4,7 @@
     - beginning
     - homebrew-tap
     - homebrew
+    - homebrew-cask
 
   vars:
     homebrew_repositories:
@@ -58,14 +59,6 @@
       - { id: 1176895641, name: Spark }
 
   tasks:
-    - name: install homebrew cask packages
-      homebrew_cask:
-        name: '{{ item.name }}'
-        state: installed
-      environment:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
-      with_items: '{{ homebrew_cask_packages }}'
-
     - name: get mas applications list
       shell: mas list
       register: mas_list
