@@ -5,6 +5,7 @@
     - homebrew-tap
     - homebrew
     - homebrew-cask
+    - mas
 
   vars:
     homebrew_repositories:
@@ -59,17 +60,6 @@
       - { id: 1176895641, name: Spark }
 
   tasks:
-    - name: get mas applications list
-      shell: mas list
-      register: mas_list
-      changed_when: False
-      always_run: True
-
-    - name: install applications by mas
-      shell: 'mas install {{ item.id }}'
-      when: '"{{ item.id }}" not in mas_list.stdout'
-      with_items: '{{ mas_applications }}'
-
     - osx_say:
         msg: '終わったよ。'
         voice: Kyoko
