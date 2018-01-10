@@ -1,0 +1,4 @@
+---
+- osx_say:
+    msg: '終わったよ。'
+    voice: Kyoko

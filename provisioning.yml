@@ -6,6 +6,7 @@
     - homebrew
     - homebrew-cask
     - mas
+    - ending
 
   vars:
     homebrew_repositories:
@@ -58,8 +59,3 @@
       - { id: 634148309, name: LogicProX }
       - { id: 1007457278, name: Realm Browser }
       - { id: 1176895641, name: Spark }
-
-  tasks:
-    - osx_say:
-        msg: '終わったよ。'
-        voice: Kyoko
