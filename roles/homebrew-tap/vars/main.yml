@@ -1,0 +1,4 @@
+---
+homebrew_repositories:
+  - caskroom/cask
+  - caskroom/versions

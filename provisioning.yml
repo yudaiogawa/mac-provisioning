@@ -9,10 +9,6 @@
     - ending
 
   vars:
-    homebrew_repositories:
-      - caskroom/cask
-      - caskroom/versions
-
     homebrew_packages:
       - { name: ansible }
       - { name: carthage }
