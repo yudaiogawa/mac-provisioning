@@ -1,0 +1,18 @@
+---
+homebrew_packages:
+  - { name: ansible }
+  - { name: carthage }
+  - { name: gdbm }
+  - { name: git }
+  - { name: git-flow }
+  - { name: libevent }
+  - { name: libyaml }
+  - { name: mas }
+  - { name: openssl }
+  - { name: openssl, state: linked, install_options: force }
+  - { name: pkg-config }
+  - { name: python }
+  - { name: readline }
+  - { name: sqlite }
+  - { name: tmux }
+  - { name: zsh }

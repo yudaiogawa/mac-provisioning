@@ -1,0 +1,8 @@
+---
+mas_applications:
+  - { id: 497799835, name: Xcode }
+  - { id: 539883307, name: LINE }
+  - { id: 585829637, name: Todoist }
+  - { id: 634148309, name: LogicProX }
+  - { id: 1007457278, name: Realm Browser }
+  - { id: 1176895641, name: Spark }
