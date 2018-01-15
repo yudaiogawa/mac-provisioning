@@ -5,6 +5,7 @@ homebrew_packages:
   - { name: gdbm }
   - { name: git }
   - { name: git-flow }
+  - { name: graphviz }
   - { name: libevent }
   - { name: libyaml }
   - { name: mas }
@@ -12,6 +13,7 @@ homebrew_packages:
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: pkg-config }
+  - { name: plantuml }
   - { name: python }
   - { name: readline }
   - { name: sbt }
