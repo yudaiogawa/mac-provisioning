@@ -18,4 +18,6 @@ homebrew_cask_packages:
   - { name: kindle }
   - { name: slack }
   - { name: spotify }
+  - { name: vagrant }
+  - { name: virtualbox }
   - { name: 5kplayer }
