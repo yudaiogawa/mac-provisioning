@@ -20,4 +20,5 @@ homebrew_cask_packages:
   - { name: spotify }
   - { name: vagrant }
   - { name: virtualbox }
+  - { name: visual-studio-code }
   - { name: 5kplayer }
