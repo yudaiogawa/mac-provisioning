@@ -1,5 +1,6 @@
 ---
 mas_applications:
+  - { id: 485812721, name: TweetDeck }
   - { id: 497799835, name: Xcode }
   - { id: 539883307, name: LINE }
   - { id: 585829637, name: Todoist }
