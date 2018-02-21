@@ -4,6 +4,7 @@ homebrew_cask_packages:
   - { name: avast-security }
   - { name: docker }
   - { name: dropbox }
+  - { name: eclipse-ide }
   - { name: evernote }
   - { name: firefox }
   - { name: geektool}
