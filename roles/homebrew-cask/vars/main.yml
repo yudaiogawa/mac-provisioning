@@ -17,6 +17,7 @@ homebrew_cask_packages:
   - { name: intellij-idea }
   - { name: karabiner-elements }
   - { name: kindle }
+  - { name: skype }
   - { name: slack }
   - { name: spotify }
   - { name: tunnelblick }
