@@ -13,6 +13,7 @@ homebrew_packages:
   - { name: nodebrew }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
+  - { name: phpbrew }
   - { name: pkg-config }
   - { name: plantuml }
   - { name: python }

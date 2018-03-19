@@ -1,4 +1,5 @@
 ---
 homebrew_repositories:
+  - homebrew/php
   - caskroom/cask
   - caskroom/versions
