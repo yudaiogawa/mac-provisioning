@@ -19,6 +19,7 @@ homebrew_cask_packages:
   - { name: kindle }
   - { name: skype }
   - { name: slack }
+  - { name: sonic-pi }
   - { name: spotify }
   - { name: tunnelblick }
   - { name: vagrant }
