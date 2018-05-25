@@ -1,5 +1,6 @@
 ---
 homebrew_cask_packages:
+  - { name: adobe-air}
   - { name: atom }
   - { name: avast-security }
   - { name: docker }
