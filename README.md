@@ -1,4 +1,4 @@
-# Mac via Ansible.
+# Mac via Ansible
 
 ## How to
 
