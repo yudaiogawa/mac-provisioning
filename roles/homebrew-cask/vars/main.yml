@@ -1,6 +1,7 @@
 ---
 homebrew_cask_packages:
   - { name: adobe-air}
+  - { name: android-studio }
   - { name: atom }
   - { name: avast-security }
   - { name: db-browser-for-sqlite }
@@ -9,6 +10,7 @@ homebrew_cask_packages:
   - { name: eclipse-ide }
   - { name: evernote }
   - { name: firefox }
+  - { name: font-fira-code }
   - { name: geektool}
   - { name: google-chrome }
   - { name: imazing }
