@@ -23,6 +23,7 @@ homebrew_cask_packages:
   - { name: karabiner-elements }
   - { name: kindle }
   - { name: marp }
+  - { name: oni }
   - { name: skype }
   - { name: slack }
   - { name: sonic-pi }
