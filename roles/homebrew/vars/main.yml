@@ -23,4 +23,5 @@ homebrew_packages:
   - { name: scala }
   - { name: sqlite }
   - { name: tmux }
+  - { name: watchman }
   - { name: zsh }
