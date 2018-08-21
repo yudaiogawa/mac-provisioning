@@ -24,6 +24,7 @@ homebrew_cask_packages:
   - { name: kindle }
   - { name: marp }
   - { name: oni }
+  - { name: react-native-debugger }
   - { name: skype }
   - { name: slack }
   - { name: sonic-pi }
