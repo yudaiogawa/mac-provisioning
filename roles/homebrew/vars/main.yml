@@ -4,6 +4,7 @@ homebrew_packages:
   - { name: carthage }
   - { name: gdbm }
   - { name: git }
+  - { name: gibo }
   - { name: git-flow }
   - { name: goenv }
   - { name: graphviz }
