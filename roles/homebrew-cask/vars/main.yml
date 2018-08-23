@@ -4,6 +4,7 @@ homebrew_cask_packages:
   - { name: android-studio }
   - { name: atom }
   - { name: avast-security }
+  - { name: cyberduck }
   - { name: db-browser-for-sqlite }
   - { name: docker }
   - { name: dropbox }
@@ -25,6 +26,7 @@ homebrew_cask_packages:
   - { name: marp }
   - { name: oni }
   - { name: react-native-debugger }
+  - { name: sequel-pro }
   - { name: skype }
   - { name: slack }
   - { name: sonic-pi }
