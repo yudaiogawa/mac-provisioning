@@ -13,7 +13,6 @@ homebrew_packages:
   - { name: libyaml }
   - { name: mas }
   - { name: nkf }
-  - { name: nodebrew }
   - { name: openssl }
   - { name: openssl, state: linked, install_options: force }
   - { name: pkg-config }
