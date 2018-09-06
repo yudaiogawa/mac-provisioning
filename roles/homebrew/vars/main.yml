@@ -8,7 +8,6 @@ homebrew_packages:
   - { name: git-flow }
   - { name: goenv }
   - { name: graphviz }
-  - { name: jenv }
   - { name: libevent }
   - { name: libyaml }
   - { name: mas }
