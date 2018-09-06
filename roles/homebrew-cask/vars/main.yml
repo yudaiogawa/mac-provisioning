@@ -4,6 +4,7 @@ homebrew_cask_packages:
   - { name: android-studio }
   - { name: atom }
   - { name: avast-security }
+  - { name: boostnote }
   - { name: cyberduck }
   - { name: db-browser-for-sqlite }
   - { name: docker }
