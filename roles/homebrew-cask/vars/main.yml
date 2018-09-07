@@ -36,4 +36,5 @@ homebrew_cask_packages:
   - { name: vagrant }
   - { name: virtualbox }
   - { name: visual-studio-code }
+  - { name: vivaldi }
   - { name: 5kplayer }
