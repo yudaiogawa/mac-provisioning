@@ -5,7 +5,8 @@ mas_applications:
   - { id: 539883307, name: LINE }
   - { id: 585829637, name: Todoist }
   - { id: 634148309, name: LogicProX }
-  - { id: 668208984,  name: GIPHY }
+  - { id: 668208984, name: GIPHY }
+  - { id: 715768417, name: Microsoft Remote Desktop 8 }
   - { id: 1007457278, name: Realm Browser }
   - { id: 1037126344, name: Apple Configurator }
   - { id: 1142151959, name: Just Focus }
