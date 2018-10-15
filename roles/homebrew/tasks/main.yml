@@ -1,6 +1,7 @@
 ---
 - name: update homebrew
-  homebrew: update_homebrew=yes
+  homebrew:
+    update_homebrew: true
 
 - name: install homebrew packages
   homebrew:
