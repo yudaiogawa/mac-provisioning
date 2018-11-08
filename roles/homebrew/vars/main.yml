@@ -10,6 +10,7 @@ homebrew_packages:
   - { name: graphviz }
   - { name: libevent }
   - { name: libyaml }
+  - { name: lua }
   - { name: mas }
   - { name: nkf }
   - { name: openssl }
@@ -22,5 +23,6 @@ homebrew_packages:
   - { name: scala }
   - { name: sqlite }
   - { name: tmux }
+  - { name: vim, install_options: --with-lua }
   - { name: watchman }
   - { name: zsh }
