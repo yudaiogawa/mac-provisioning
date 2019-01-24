@@ -5,6 +5,7 @@ homebrew_cask_packages:
   - { name: atom }
   - { name: avast-security }
   - { name: boostnote }
+  - { name: clipy }
   - { name: cyberduck }
   - { name: db-browser-for-sqlite }
   - { name: docker }
