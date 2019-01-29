@@ -3,7 +3,7 @@
   shell: mas list
   register: mas_list
   changed_when: False
-  always_run: True
+  check_mode: no
 
 - name: install applications by mas
   shell: 'mas install {{ item.id }}'
