@@ -2,6 +2,7 @@
 homebrew_packages:
   - { name: ansible }
   - { name: carthage }
+  - { name: ffmpeg }
   - { name: gdbm }
   - { name: git }
   - { name: gibo }
