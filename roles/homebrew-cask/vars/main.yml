@@ -35,6 +35,7 @@ homebrew_cask_packages:
   - { name: sonic-pi }
   - { name: spotify }
   - { name: switchresx }
+  - { name: tor-browser }
   - { name: tunnelblick }
   - { name: vagrant }
   - { name: virtualbox }
