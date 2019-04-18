@@ -23,6 +23,7 @@ homebrew_packages:
   - { name: sbt }
   - { name: scala }
   - { name: sqlite }
+  - { name: tig }
   - { name: tmux }
   - { name: vim, install_options: --with-lua }
   - { name: watchman }
