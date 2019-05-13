@@ -11,6 +11,7 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: dropbox }
   - { name: eclipse-ide }
+  - { name: energybar }
   - { name: evernote }
   - { name: firefox }
   - { name: font-fira-code }
