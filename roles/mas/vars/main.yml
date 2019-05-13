@@ -9,6 +9,7 @@ mas_applications:
   - { id: 668208984, name: GIPHY }
   - { id: 1007457278, name: Realm Browser }
   - { id: 1037126344, name: Apple Configurator }
+  - { id: 1039633667, name: Irvue }
   - { id: 1142151959, name: Just Focus }
   - { id: 1176895641, name: Spark }
   - { id: 1295203466, name: Microsoft Remote Desktop 10 }
