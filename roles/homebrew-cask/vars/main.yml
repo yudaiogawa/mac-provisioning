@@ -16,6 +16,7 @@ homebrew_cask_packages:
   - { name: firefox }
   - { name: font-fira-code }
   - { name: geektool}
+  - { name: gitkraken }
   - { name: google-chrome }
   - { name: imazing }
   - { name: istat-menus5 }
