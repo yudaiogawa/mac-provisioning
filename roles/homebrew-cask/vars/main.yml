@@ -23,8 +23,8 @@ homebrew_cask_packages:
   - { name: istat-menus5 }
   - { name: iterm2 }
   - { name: java }
-  - { name: java6 }
   - { name: java8 }
+  - { name: java11 }
   - { name: intellij-idea }
   - { name: karabiner-elements }
   - { name: kindle }
