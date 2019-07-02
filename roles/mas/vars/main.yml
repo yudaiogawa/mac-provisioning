@@ -7,6 +7,7 @@ mas_applications:
   - { id: 585829637, name: Todoist }
   - { id: 634148309, name: LogicProX }
   - { id: 668208984, name: GIPHY }
+  - { id: 766939888, name: 1Keyboard }
   - { id: 1007457278, name: Realm Browser }
   - { id: 1037126344, name: Apple Configurator }
   - { id: 1039633667, name: Irvue }
