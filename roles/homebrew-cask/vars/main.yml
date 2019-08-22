@@ -2,7 +2,6 @@
 homebrew_cask_packages:
   - { name: adobe-air}
   - { name: android-studio }
-  - { name: artpip }
   - { name: atom }
   - { name: avast-security }
   - { name: boostnote }
