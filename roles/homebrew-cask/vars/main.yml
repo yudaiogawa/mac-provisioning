@@ -32,6 +32,7 @@ homebrew_cask_packages:
   - { name: marp }
   - { name: oni }
   - { name: postman }
+  - { name: raindropio }
   - { name: react-native-debugger }
   - { name: sequel-pro }
   - { name: skype }
