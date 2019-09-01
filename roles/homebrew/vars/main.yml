@@ -1,4 +1,10 @@
 ---
+
+homebrew_repositories:
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+
 homebrew_packages:
   - { name: ansible }
   - { name: carthage }

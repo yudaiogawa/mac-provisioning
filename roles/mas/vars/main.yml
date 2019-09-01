@@ -1,4 +1,5 @@
 ---
+
 mas_applications:
   - { id: 425424353, name: The Unarchiver }
   - { id: 485812721, name: TweetDeck }

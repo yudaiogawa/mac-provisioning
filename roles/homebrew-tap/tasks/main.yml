@@ -1,6 +1,0 @@
----
-- name: add repositories by homebrew tap
-  homebrew_tap:
-    name: '{{ item }}'
-    state: present
-  with_items: '{{ homebrew_repositories }}'

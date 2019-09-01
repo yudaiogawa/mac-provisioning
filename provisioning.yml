@@ -2,7 +2,6 @@
   gather_facts: no
   roles:
     - beginning
-    - homebrew-tap
     - homebrew
     - homebrew-cask
     - mas

@@ -1,6 +1,6 @@
 # Mac via Ansible
 
-## How to
+## Run
 
 ```zsh
 % ansible-playbook -vv provisioning.yml

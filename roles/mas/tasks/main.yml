@@ -1,11 +1,12 @@
 ---
-- name: get mas applications list
+
+- name: Show All Apps Installed With Mas
   shell: mas list
   register: mas_list
   changed_when: False
   check_mode: no
 
-- name: install applications by mas
+- name: Install App With Mas
   shell: 'mas install {{ item.id }}'
   when: '"{{ item.id }}" not in mas_list.stdout'
   with_items: '{{ mas_applications }}'
