@@ -29,6 +29,7 @@ homebrew_cask_packages:
   - { name: intellij-idea }
   - { name: karabiner-elements }
   - { name: kindle }
+  - { name: kindle-comic-creator }
   - { name: mamp4 }
   - { name: marp }
   - { name: oni }
