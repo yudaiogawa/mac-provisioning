@@ -1,8 +1,14 @@
-# Mac via Ansible
+<p align='center'>
+  <img src='img/mac_via_ansible.png' width='80%' />
+</p>
 
-Macbook setup and configuration via Ansible.
+<h2 align='center'>Mac Via Ansible</h2>
 
-## Run
+<p align='center'>Macbook setup and configuration via Ansible.</p>
+
+<br>
+
+### Run
 
 ```zsh
 % ansible-playbook -vv provisioning.yml
