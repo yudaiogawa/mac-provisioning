@@ -48,4 +48,5 @@ homebrew_cask_packages:
   - { name: virtualbox }
   - { name: visual-studio-code }
   - { name: vivaldi }
+  - { name: xmind }
   - { name: 5kplayer }
