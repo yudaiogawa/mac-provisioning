@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='img/mac_via_ansible.png' width='80%' />
+  <img src='_img/mac_via_ansible.png' width='80%' />
 </p>
 
 <h2 align='center'>Mac Via Ansible</h2>
