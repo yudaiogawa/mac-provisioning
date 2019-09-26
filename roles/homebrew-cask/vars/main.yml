@@ -3,7 +3,6 @@
 homebrew_cask_packages:
   - { name: adobe-air}
   - { name: android-studio }
-  - { name: atom }
   - { name: avast-security }
   - { name: boostnote }
   - { name: clipy }
@@ -30,8 +29,6 @@ homebrew_cask_packages:
   - { name: karabiner-elements }
   - { name: kindle }
   - { name: kindle-comic-creator }
-  - { name: mamp4 }
-  - { name: marp }
   - { name: oni }
   - { name: postman }
   - { name: raindropio }
@@ -39,7 +36,6 @@ homebrew_cask_packages:
   - { name: sequel-pro }
   - { name: skype }
   - { name: slack }
-  - { name: sonic-pi }
   - { name: spotify }
   - { name: switchresx }
   - { name: tor-browser }
@@ -47,6 +43,5 @@ homebrew_cask_packages:
   - { name: vagrant }
   - { name: virtualbox }
   - { name: visual-studio-code }
-  - { name: vivaldi }
   - { name: xmind }
   - { name: 5kplayer }
