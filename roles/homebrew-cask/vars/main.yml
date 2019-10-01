@@ -20,7 +20,7 @@ homebrew_cask_packages:
   - { name: google-chrome }
   - { name: grammarly }
   - { name: imazing }
-  - { name: istat-menus5 }
+  - { name: istat-menus }
   - { name: iterm2 }
   - { name: java }
   - { name: java8 }
