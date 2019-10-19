@@ -38,6 +38,7 @@ homebrew_cask_packages:
   - { name: slack }
   - { name: spotify }
   - { name: switchresx }
+  - { name: thunderbird }
   - { name: toggl }
   - { name: tor-browser }
   - { name: tunnelblick }
