@@ -6,6 +6,24 @@
 
 ### Run
 
-```zsh
-% ansible-playbook -vv provisioning.yml
+```bash
+ansible-playbook -vv provisioning.yml
+```
+
+<br>
+
+### Tips
+
+```bash
+# syntax check on the playbook
+ansible-playbook --syntax-check provisioning.yml
+
+# Show all tasks
+ansible-playbook --list-tasks provisioning.yml
+
+# Run a specific task
+ansible-playbook provisioning.yml --tags [tag_name_of_task]
+
+# Dry run
+ansible-playbook --check provisioning.yml
 ```
