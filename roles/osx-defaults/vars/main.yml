@@ -1,0 +1,20 @@
+---
+
+setup_finder:
+  # Show All Files
+  - domain: com.apple.finder
+    key: AppleShowAllFiles
+    type: bool
+    value: true
+  # Hide The Icons on Desktop
+  - domain: com.apple.finder
+    key: CreateDesktop
+    type: bool
+    value: false
+
+setup_dock:
+  # Auto Hide Dock
+  - domain: com.apple.dock
+    key: autohide
+    type: int
+    value: 1

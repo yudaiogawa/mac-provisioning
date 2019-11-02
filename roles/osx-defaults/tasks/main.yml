@@ -1,0 +1,21 @@
+---
+
+- name: Setup Finder
+  osx_defaults:
+    domain: '{{ item.domain }}'
+    key: '{{ item.key }}'
+    type: '{{ item.type }}'
+    value: '{{ item.value }}'
+  with_items: '{{ setup_finder }}'
+  tags: setup-finder
+  notify: killall Finder
+
+- name: Setup Dock
+  osx_defaults:
+    domain: '{{ item.domain }}'
+    key: '{{ item.key }}'
+    type: '{{ item.type }}'
+    value: '{{ item.value }}'
+  with_items: '{{ setup_dock }}'
+  tags: setup-dock
+  notify: killall Dock
