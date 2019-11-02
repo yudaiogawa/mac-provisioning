@@ -3,3 +3,4 @@
 - osx_say:
     msg: 'To finished. Happy hacking.'
     voice: Victoria
+  tags: cafe

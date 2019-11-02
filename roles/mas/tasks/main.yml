@@ -5,8 +5,10 @@
   register: mas_list
   changed_when: False
   check_mode: no
+  tags: mas-list
 
 - name: Install App With Mas
   shell: 'mas install {{ item.id }}'
   when: '"{{ item.id }}" not in mas_list.stdout'
   with_items: '{{ mas_applications }}'
+  tags: mas-install

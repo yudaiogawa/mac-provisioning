@@ -3,3 +3,4 @@
 - osx_say:
     msg: 'Start building the macbook environment with Ansible.'
     voice: Victoria
+  tags: amuse-bouche

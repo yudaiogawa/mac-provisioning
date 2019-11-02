@@ -3,15 +3,18 @@
 - name: Update Homebrew
   homebrew:
     update_homebrew: true
+  tags: homebrew-update
 
 - name: Homebrew Tap
   homebrew_tap:
     name: '{{ item }}'
     state: present
   with_items: '{{ homebrew_repositories }}'
+  tags: homebrew-tap
 
 - name: Install Homebrew Packages
   homebrew:
     name: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
   with_items: '{{ homebrew_packages }}'
+  tags: homebrew-install

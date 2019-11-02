@@ -7,3 +7,4 @@
     install_options: 'appdir=/Applications'
     greedy: true
   with_items: '{{ homebrew_cask_packages }}'
+  tags: homebrew-cask-install
