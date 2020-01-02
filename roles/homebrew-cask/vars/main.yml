@@ -10,7 +10,6 @@ homebrew_cask_packages:
   - { name: db-browser-for-sqlite }
   - { name: docker }
   - { name: dropbox }
-  - { name: eclipse-ide }
   - { name: energybar }
   - { name: evernote }
   - { name: firefox }
@@ -19,7 +18,6 @@ homebrew_cask_packages:
   - { name: gitkraken }
   - { name: google-chrome }
   - { name: grammarly }
-  - { name: imazing }
   - { name: istat-menus }
   - { name: iterm2 }
   - { name: java }
@@ -29,7 +27,6 @@ homebrew_cask_packages:
   - { name: karabiner-elements }
   - { name: kindle }
   - { name: kindle-comic-creator }
-  - { name: oni }
   - { name: postman }
   - { name: raindropio }
   - { name: react-native-debugger }
@@ -39,10 +36,8 @@ homebrew_cask_packages:
   - { name: spotify }
   - { name: switchresx }
   - { name: thunderbird }
-  - { name: toggl }
   - { name: tor-browser }
   - { name: tunnelblick }
-  - { name: vagrant }
   - { name: virtualbox }
   - { name: visual-studio-code }
   - { name: xmind }
