@@ -14,4 +14,5 @@ mas_applications:
   - { id: 1142151959, name: Just Focus }
   - { id: 1176895641, name: Spark }
   - { id: 1295203466, name: Microsoft Remote Desktop }
+  - { id: 1319778037, name: iStat Menus }
   - { id: 1352778147, name: Bitwarden }

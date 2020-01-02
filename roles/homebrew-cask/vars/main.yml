@@ -18,7 +18,6 @@ homebrew_cask_packages:
   - { name: gitkraken }
   - { name: google-chrome }
   - { name: grammarly }
-  - { name: istat-menus }
   - { name: iterm2 }
   - { name: java }
   - { name: java8 }
