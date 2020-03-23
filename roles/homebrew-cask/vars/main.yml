@@ -14,6 +14,7 @@ homebrew_cask_packages:
   - { name: evernote }
   - { name: firefox }
   - { name: font-fira-code }
+  - { name: fork }
   - { name: geektool}
   - { name: gitkraken }
   - { name: google-chrome }
