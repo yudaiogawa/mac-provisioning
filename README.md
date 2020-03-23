@@ -14,16 +14,26 @@ ansible-playbook -vv provisioning.yml
 
 ### Tips
 
+Syntax check on the playbook.
+
 ```bash
-# syntax check on the playbook
 ansible-playbook --syntax-check provisioning.yml
+```
 
-# Show all tasks
+Show all tasks.
+
+```bash
 ansible-playbook --list-tasks provisioning.yml
+```
 
-# Run a specific task
+Run a specific task.
+
+```bash
 ansible-playbook provisioning.yml --tags [tag_name_of_task]
+```
 
-# Dry run
+Dry run.
+
+```bash
 ansible-playbook --check provisioning.yml
 ```
