@@ -15,6 +15,7 @@ homebrew_packages:
   - { name: git-flow }
   - { name: goenv }
   - { name: graphviz }
+  - { name: imagemagick }
   - { name: libevent }
   - { name: libyaml }
   - { name: lua }
