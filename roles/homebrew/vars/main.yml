@@ -8,6 +8,7 @@ homebrew_repositories:
 homebrew_packages:
   - { name: ansible }
   - { name: carthage }
+  - { name: docker-compose }
   - { name: ffmpeg }
   - { name: gdbm }
   - { name: git }
