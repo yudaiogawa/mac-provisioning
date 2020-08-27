@@ -28,7 +28,6 @@ homebrew_packages:
   - { name: openssl, state: linked, install_options: force }
   - { name: pkg-config }
   - { name: plantuml }
-  - { name: python }
   - { name: readline }
   - { name: sbt }
   - { name: scala }
