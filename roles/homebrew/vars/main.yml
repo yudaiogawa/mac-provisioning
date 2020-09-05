@@ -10,6 +10,7 @@ homebrew_packages:
   - { name: asdf }
   - { name: carthage }
   - { name: docker-compose }
+  - { name: emojify }
   - { name: ffmpeg }
   - { name: gdbm }
   - { name: git }
