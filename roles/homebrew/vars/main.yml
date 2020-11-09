@@ -8,7 +8,7 @@ homebrew_repositories:
 homebrew_packages:
   - { name: ansible }
   - { name: asdf }
-  - { name: brightness }
+  - { name: awscli }
   - { name: carthage }
   - { name: docker-compose }
   - { name: emojify }
@@ -39,5 +39,4 @@ homebrew_packages:
   - { name: tmux }
   - { name: vim, install_options: --with-lua }
   - { name: watchman }
-  - { name: yarn }
   - { name: zsh }
