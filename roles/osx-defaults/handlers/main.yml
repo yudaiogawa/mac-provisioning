@@ -5,3 +5,6 @@
 
 - name: killall Dock
   command: killall Dock
+
+- name: killall SystemUIServer
+  command: killall SystemUIServer

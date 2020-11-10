@@ -1,5 +1,14 @@
 ---
 
+- name: Setup General
+  osx_defaults:
+    domain: '{{ item.domain }}'
+    key: '{{ item.key }}'
+    type: '{{ item.type }}'
+    value: '{{ item.value }}'
+  with_items: '{{ setup_general }}'
+  tags: setup-general
+
 - name: Setup Finder
   osx_defaults:
     domain: '{{ item.domain }}'
@@ -19,3 +28,22 @@
   with_items: '{{ setup_dock }}'
   tags: setup-dock
   notify: killall Dock
+
+- name: Setup SystemUIServer
+  osx_defaults:
+    domain: '{{ item.domain }}'
+    key: '{{ item.key }}'
+    type: '{{ item.type }}'
+    value: '{{ item.value }}'
+  with_items: '{{ setup_systemuiserver }}'
+  tags: setup-systemuiserver
+  notify: killall SystemUIServer
+
+- name: Setup Other
+  osx_defaults:
+    domain: '{{ item.domain }}'
+    key: '{{ item.key }}'
+    type: '{{ item.type }}'
+    value: '{{ item.value }}'
+  with_items: '{{ setup_other }}'
+  tags: setup-other
