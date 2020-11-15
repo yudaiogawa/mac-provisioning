@@ -113,6 +113,8 @@ setup_finder:
     value: false
 
 setup_dock:
+  - { domain: com.apple.dock, key: springboard-rows, type: int, value: 8 }
+  - { domain: com.apple.dock, key: springboard-columns, type: int, value: 10 }
   - domain: com.apple.dock
     key: autohide
     type: bool
