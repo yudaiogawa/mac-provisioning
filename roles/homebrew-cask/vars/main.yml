@@ -1,7 +1,7 @@
 ---
 
 homebrew_cask_packages:
-  - { name: adobe-air}
+  - { name: adobe-air }
   - { name: android-studio }
   - { name: avast-security }
   - { name: boostnote }
@@ -14,7 +14,7 @@ homebrew_cask_packages:
   - { name: evernote }
   - { name: firefox }
   - { name: font-fira-code }
-  - { name: geektool}
+  - { name: geektool }
   - { name: google-chrome }
   - { name: grammarly }
   - { name: istat-menus }
