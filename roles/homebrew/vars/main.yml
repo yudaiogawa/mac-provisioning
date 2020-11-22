@@ -6,6 +6,7 @@ homebrew_repositories:
   - homebrew/cask-fonts
 
 homebrew_packages:
+  - { name: anyenv }
   - { name: ansible }
   - { name: asdf }
   - { name: awscli }

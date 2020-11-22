@@ -2,6 +2,7 @@
 
 homebrew_cask_packages:
   - { name: adobe-air }
+  - { name: adoptopenjdk8 }
   - { name: android-studio }
   - { name: avast-security }
   - { name: boostnote }
