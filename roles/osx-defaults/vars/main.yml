@@ -1,184 +1,57 @@
 ---
 
 setup_general:
-  - domain: NSGlobalDomain
-    key: _HIHideMenuBar
-    type: bool
-    value: true
-  - domain: NSGlobalDomain
-    key: AppleShowAllExtensions
-    type: bool
-    value: true
-  - domain: NSGlobalDomain
-    key: AppleKeyboardUIMode
-    type: int
-    value: 3
-  - domain: NSGlobalDomain
-    key: KeyRepeat
-    type: int
-    value: 2
-  - domain: NSGlobalDomain
-    key: InitialKeyRepeat
-    type: int
-    value: 15
-  - domain: NSGlobalDomain
-    key: NSAutomaticSpellingCorrectionEnabled
-    type: bool
-    value: false
-  - domain: NSGlobalDomain
-    key: NSWindowResizeTime
-    type: string
-    value: 0.1
-  - domain: NSGlobalDomain
-    key: NSAutomaticWindowAnimationsEnabled
-    type: bool
-    value: false
-  - domain: NSGlobalDomain
-    key: NSTableViewDefaultSizeMode
-    type: int
-    value: 1
-  - domain: NSGlobalDomain
-    key: com.apple.trackpad.scaling
-    type: float
-    value: 3
-  - domain: NSGlobalDomain
-    key: com.apple.trackpad.scrolling
-    type: float
-    value: 1
-  - domain: NSGlobalDomain
-    key: com.apple.mouse.scaling
-    type: string
-    value: 1.5
-  - domain: NSGlobalDomain
-    key: com.apple.swipescrolldirection
-    type: bool
-    value: true
+  - { domain: NSGlobalDomain, key: _HIHideMenuBar, type: bool, value: true }
+  - { domain: NSGlobalDomain, key: AppleShowAllExtensions, type: bool, value: true }
+  - { domain: NSGlobalDomain, key: AppleKeyboardUIMode, type: int, value: 3 }
+  - { domain: NSGlobalDomain, key: KeyRepeat, type: int, value: 2 }
+  - { domain: NSGlobalDomain, key: InitialKeyRepeat, type: int, value: 15 }
+  - { domain: NSGlobalDomain, key: NSAutomaticSpellingCorrectionEnabled, type: bool, value: false }
+  - { domain: NSGlobalDomain, key: NSWindowResizeTime, type: string, value: 0.1 }
+  - { domain: NSGlobalDomain, key: NSAutomaticWindowAnimationsEnabled, type: bool, value: false }
+  - { domain: NSGlobalDomain, key: NSTableViewDefaultSizeMode, type: int, value: 1 }
+  - { domain: NSGlobalDomain, key: com.apple.trackpad.scaling, type: float, value: 3 }
+  - { domain: NSGlobalDomain, key: com.apple.trackpad.scrolling, type: float, value: 1 }
+  - { domain: NSGlobalDomain, key: com.apple.mouse.scaling, type: float, value: 3 }
+  - { domain: NSGlobalDomain, key: com.apple.swipescrolldirection, type: bool, value: true }
 
 setup_finder:
-  - domain: com.apple.finder
-    key: _FXShowPosixPathInTitle
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: FXPreferredViewStyle
-    type: string
-    value: clmv
-  - domain: com.apple.finder
-    key: SearchRecentsSavedViewStyle
-    type: string
-    value: clmv
-  - domain: com.apple.finder
-    key: DisableAllAnimations
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: FinderSounds
-    type: bool
-    value: false
-  - domain: com.apple.finder
-    key: AppleShowAllFiles
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: CreateDesktop
-    type: bool
-    value: false
-  - domain: com.apple.finder
-    key: QLEnableTextSelection
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: QLHidePanelOnDeactivate
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: QLPanelAnimationDuration
-    type: float
-    value: 0
-  - domain: com.apple.finder
-    key: ShowStatusBar
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: ShowPathBar
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: ShowTabView
-    type: bool
-    value: true
-  - domain: com.apple.finder
-    key: AnimateWindowZoom
-    type: bool
-    value: false
+  - { domain: com.apple.finder, key: _FXShowPosixPathInTitle, type: bool, value: true }
+  - { domain: com.apple.finder, key: FXPreferredViewStyle, type: string, value: clmv }
+  - { domain: com.apple.finder, key: SearchRecentsSavedViewStyle, type: string, value: clmv }
+  - { domain: com.apple.finder, key: DisableAllAnimations, type: bool, value: true }
+  - { domain: com.apple.finder, key: FinderSounds, type: bool, value: false }
+  - { domain: com.apple.finder, key: AppleShowAllFiles, type: bool, value: true }
+  - { domain: com.apple.finder, key: CreateDesktop, type: bool, value: false }
+  - { domain: com.apple.finder, key: QLEnableTextSelection, type: bool, value: true }
+  - { domain: com.apple.finder, key: QLHidePanelOnDeactivate, type: bool, value: true }
+  - { domain: com.apple.finder, key: QLPanelAnimationDuration, type: float, value: 0 }
+  - { domain: com.apple.finder, key: ShowStatusBar, type: bool, value: true }
+  - { domain: com.apple.finder, key: ShowPathBar, type: bool, value: true }
+  - { domain: com.apple.finder, key: ShowTabView, type: bool, value: true }
+  - { domain: com.apple.finder, key: AnimateWindowZoom, type: bool, value: false }
+  - { domain: com.apple.finder, key: FXArrangeGroupViewBy, type: string, value: Name }
+  - { domain: com.apple.finder, key: FXPreferredGroupBy, type: string, value: Name }
 
 setup_dock:
   - { domain: com.apple.dock, key: springboard-rows, type: int, value: 8 }
   - { domain: com.apple.dock, key: springboard-columns, type: int, value: 10 }
-  - domain: com.apple.dock
-    key: autohide
-    type: bool
-    value: true
-  - domain: com.apple.dock
-    key: autohide-delay
-    type: float
-    value: 2.0
-  - domain: com.apple.dock
-    key: autohide-time-modifier
-    type: int
-    value: 0
-  - domain: com.apple.dock
-    key: orientation
-    type: string
-    value: right
-  - domain: com.apple.dock
-    key: magnification
-    type: bool
-    value: false
-  - domain: com.apple.dock
-    key: tilesize
-    type: float
-    value: 35
-  - domain: com.apple.dock
-    key: show-recents
-    type: bool
-    value: false
-  - domain: com.apple.dock
-    key: show-process-indicators
-    type: bool
-    value: false
-  - domain: com.apple.dock
-    key: mineffect
-    type: string
-    value: suck
-  - domain: com.apple.dock
-    key: minimize-to-application
-    type: bool
-    value: true
-  - domain: com.apple.dock
-    key: lanchanim
-    type: bool
-    value: false
-  - domain: com.apple.dock
-    key: wvous-bl-corner
-    type: int
-    value: 10
-  - domain: com.apple.dock
-    key: showhidden
-    type: bool
-    value: true
-  - domain: com.apple.dock
-    key: position-immutable
-    type: boolean
-    value: true
-  - domain: com.apple.dock
-    key: size-immutable
-    type: boolean
-    value: true
-  - domain: com.apple.dock
-    key: contents-immutable
-    type: boolean
-    value: false
+  - { domain: com.apple.dock, key: autohide, type: bool, value: true }
+  - { domain: com.apple.dock, key: autohide-delay, type: float, value: 2.0 }
+  - { domain: com.apple.dock, key: autohide-time-modifier, type: int, value: 0 }
+  - { domain: com.apple.dock, key: orientation, type: string, value: right }
+  - { domain: com.apple.dock, key: magnification, type: bool, value: false }
+  - { domain: com.apple.dock, key: tilesize, type: float, value: 35 }
+  - { domain: com.apple.dock, key: show-recents, type: bool, value: false }
+  - { domain: com.apple.dock, key: show-process-indicators, type: bool, value: false }
+  - { domain: com.apple.dock, key: mineffect, type: string, value: suck }
+  - { domain: com.apple.dock, key: minimize-to-application, type: bool, value: true }
+  - { domain: com.apple.dock, key: lanchanim, type: bool, value: false }
+  - { domain: com.apple.dock, key: wvous-bl-corner, type: int, value: 10 }
+  - { domain: com.apple.dock, key: showhidden, type: bool, value: true }
+  - { domain: com.apple.dock, key: position-immutable, type: boolean, value: true }
+  - { domain: com.apple.dock, key: size-immutable, type: boolean, value: true }
+  - { domain: com.apple.dock, key: contents-immutable, type: boolean, value: false }
 
 setup_systemuiserver:
   - domain: com.apple.systemuiserver
@@ -190,63 +63,19 @@ setup_systemuiserver:
       - /System/Library/CoreServices/Menu Extras/Volume.menu
 
 setup_other:
-  - domain: com.apple.CrashReporter
-    key: UseUNC
-    type: string
-    value: 1
-  - domain: com.apple.desktopservices
-    key: DSDontWriteNetworkStores
-    type: bool
-    value: true
-  - domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
-    key: Clicking
-    type: bool
-    value: true
-  - domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
-    key: Dragging
-    type: bool
-    value: true
-  - domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
-    key: TrackpadThreeFingerDrag
-    type: bool
-    value: true
-  - domain: com.apple.AppleMultitouchTrackpad
-    key: Clicking
-    type: bool
-    value: true
-  - domain: com.apple.AppleMultitouchTrackpad
-    key: Dragging
-    type: bool
-    value: true
-  - domain: com.apple.AppleMultitouchTrackpad
-    key: TrackpadThreeFingerDrag
-    type: bool
-    value: true
-  - domain: com.apple.AppleMultitouchTrackpad
-    key: FirstClickThreshold
-    type: int
-    value: 1
-  - domain: com.apple.AppleMultitouchTrackpad
-    key: SecondClickThreshold
-    type: int
-    value: 1
-  - domain: com.apple.screencapture
-    key: name
-    type: string
-    value: sc
-  - domain: com.apple.screencapture
-    key: location
-    type: string
-    value: ~/Pictures
-  - domain: com.apple.screencapture
-    key: disable-shadow
-    type: bool
-    value: true
-  - domain: com.apple.inputmethod.Kotoeri
-    key: JIMPrefLiveConversionKey
-    type: bool
-    value: false
-  - domain: com.apple.TextEdit
-    key: RichText
-    type: int
-    value: 0
+  - { domain: com.apple.CrashReporter, key: UseUNC, type: string, value: 1 }
+  - { domain: com.apple.desktopservices, key: DSDontWriteNetworkStores, type: bool, value: true }
+  - { domain: com.apple.driver.AppleBluetoothMultitouch.trackpad, key: Clicking, type: bool, value: true }
+  - { domain: com.apple.driver.AppleBluetoothMultitouch.trackpad, key: Dragging, type: bool, value: true }
+  - { domain: com.apple.driver.AppleBluetoothMultitouch.trackpad, key: TrackpadThreeFingerDrag, type: bool, value: true }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, type: bool, value: true }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: Dragging, type: bool, value: true }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: TrackpadThreeFingerDrag, type: bool, value: true }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: FirstClickThreshold, type: int, value: 1 }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: SecondClickThreshold, type: int, value: 1 }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: ActuationStrength, type: int, value: 0 }
+  - { domain: com.apple.screencapture, key: name, type: string, value: sc }
+  - { domain: com.apple.screencapture, key: location, type: string, value: ~/Pictures }
+  - { domain: com.apple.screencapture, key: disable-shadow, type: bool, value: true }
+  - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: false }
+  - { domain: com.apple.TextEdit, key: RichText, type: int, value: 0 }
