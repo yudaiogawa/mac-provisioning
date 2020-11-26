@@ -78,4 +78,5 @@ setup_other:
   - { domain: com.apple.screencapture, key: location, type: string, value: ~/Pictures }
   - { domain: com.apple.screencapture, key: disable-shadow, type: bool, value: true }
   - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: false }
+  - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefCharacterForYenKey, type: int, value: 1 }
   - { domain: com.apple.TextEdit, key: RichText, type: int, value: 0 }
