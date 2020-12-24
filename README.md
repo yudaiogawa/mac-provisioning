@@ -16,3 +16,7 @@ execute a specific task:
 ```bash
 ansible-playbook provisioning.yml --tags 'tag_name'
 ```
+
+## License
+
+This software is released under the MIT License, see LICENSE.
