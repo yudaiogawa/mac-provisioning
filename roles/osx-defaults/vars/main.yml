@@ -34,7 +34,7 @@ setup_finder:
   - { domain: com.apple.finder, key: FXPreferredGroupBy, type: string, value: Name }
 
 setup_dock:
-  - { domain: com.apple.dock, key: springboard-rows, type: int, value: 8 }
+  - { domain: com.apple.dock, key: springboard-rows, type: int, value: 10 }
   - { domain: com.apple.dock, key: springboard-columns, type: int, value: 10 }
   - { domain: com.apple.dock, key: autohide, type: bool, value: true }
   - { domain: com.apple.dock, key: autohide-delay, type: float, value: 2.0 }
