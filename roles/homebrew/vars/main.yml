@@ -22,6 +22,7 @@ homebrew_packages:
   - { name: gpg }
   - { name: graphviz }
   - { name: imagemagick }
+  - { name: openjdk@11 }
   - { name: libevent }
   - { name: libyaml }
   - { name: lua }
