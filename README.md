@@ -3,18 +3,18 @@
 <p align="center">Macbook setup and configuration via Ansible.</p>
 <br>
 
-### Introduction
+### Run
 
-usually:
+Usually:
 
 ```bash
 make run
 ```
 
-execute a specific task:
+Execute a specific task:
 
 ```bash
-ansible-playbook provisioning.yml --tags 'tag_name'
+ansible-playbook provisioning.yml --tags $tag_name
 ```
 
 ## License
