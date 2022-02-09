@@ -23,6 +23,7 @@ homebrew_cask_packages:
   - { name: intellij-idea }
   - { name: karabiner-elements }
   - { name: kindle }
+  - { name: min }
   - { name: ngrok }
   - { name: postman }
   - { name: raindropio }

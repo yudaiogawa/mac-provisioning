@@ -5,6 +5,7 @@ mas_applications:
   - { id: 485812721, name: TweetDeck }
   - { id: 497799835, name: Xcode }
   - { id: 539883307, name: LINE }
+  - { id: 571213070, name: DaVinci Resolve }
   - { id: 668208984, name: GIPHY }
   - { id: 904280696, name: Things 3 }
   - { id: 1007457278, name: Realm Browser }
