@@ -1,5 +1,4 @@
 ---
-
 homebrew_cask_packages:
   - { name: adobe-air }
   - { name: adoptopenjdk8 }
@@ -31,11 +30,8 @@ homebrew_cask_packages:
   - { name: skype }
   - { name: slack }
   - { name: spotify }
-  - { name: switchresx }
-  - { name: thunderbird }
   - { name: tor-browser }
   - { name: tunnelblick }
   - { name: virtualbox }
   - { name: visual-studio-code }
   - { name: xmind }
-  - { name: 5kplayer }
