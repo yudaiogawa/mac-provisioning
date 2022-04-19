@@ -16,14 +16,17 @@ homebrew_cask_packages:
   - { name: font-fira-code }
   - { name: geektool }
   - { name: google-chrome }
+  - { name: google-drive }
   - { name: grammarly }
   - { name: istat-menus }
   - { name: iterm2 }
   - { name: intellij-idea }
   - { name: karabiner-elements }
+  - { name: keycastr }
   - { name: kindle }
   - { name: min }
   - { name: ngrok }
+  - { name: numi }
   - { name: postman }
   - { name: raindropio }
   - { name: sequel-pro }
