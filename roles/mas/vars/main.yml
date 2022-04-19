@@ -1,15 +1,17 @@
 ---
-
 mas_applications:
   - { id: 425424353, name: The Unarchiver }
   - { id: 485812721, name: TweetDeck }
   - { id: 497799835, name: Xcode }
   - { id: 539883307, name: LINE }
+  # - { id: 549083868, name: Display Menu }
   - { id: 571213070, name: DaVinci Resolve }
   - { id: 668208984, name: GIPHY }
+  - { id: 688211836, name: EasyRes }
   - { id: 904280696, name: Things 3 }
   - { id: 1007457278, name: Realm Browser }
   - { id: 1037126344, name: Apple Configurator }
   - { id: 1176895641, name: Spark }
   - { id: 1295203466, name: Microsoft Remote Desktop }
   - { id: 1352778147, name: Bitwarden }
+  - { id: 1447043133, name: Cursor Pro }
