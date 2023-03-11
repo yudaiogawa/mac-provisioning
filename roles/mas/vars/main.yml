@@ -11,7 +11,7 @@ mas_applications:
   - { id: 904280696, name: Things 3 }
   - { id: 1007457278, name: Realm Browser }
   - { id: 1037126344, name: Apple Configurator }
-  - { id: 1063090543, name: SnailSVN Lite: SVN for Finder }
+  - { id: 1063090543, name: SnailSVN Lite SVN for Finder }
   - { id: 1176895641, name: Spark }
   - { id: 1295203466, name: Microsoft Remote Desktop }
   - { id: 1352778147, name: Bitwarden }
