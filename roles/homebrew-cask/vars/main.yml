@@ -17,6 +17,7 @@ homebrew_cask_packages:
   - { name: geektool }
   - { name: google-chrome }
   - { name: google-drive }
+  - { name: google-japanese-ime }
   - { name: grammarly }
   - { name: istat-menus }
   - { name: iterm2 }
