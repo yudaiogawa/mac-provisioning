@@ -8,6 +8,7 @@ homebrew_cask_packages:
   - { name: clipy }
   - { name: db-browser-for-sqlite }
   - { name: deepl }
+  - { name: devtoys }
   - { name: discord }
   - { name: docker }
   - { name: dropbox }
