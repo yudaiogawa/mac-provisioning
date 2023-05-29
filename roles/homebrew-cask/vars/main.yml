@@ -28,6 +28,7 @@ homebrew_cask_packages:
   - { name: kindle }
   - { name: min }
   - { name: ngrok }
+  - { name: nosql-workbench }
   - { name: numi }
   - { name: postman }
   - { name: raindropio }
