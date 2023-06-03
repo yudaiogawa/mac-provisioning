@@ -3,6 +3,7 @@ homebrew_cask_packages:
   - { name: adobe-air }
   - { name: adoptopenjdk8 }
   - { name: android-studio }
+  - { name: alt-tab }
   - { name: avast-security }
   - { name: boostnote }
   - { name: clipy }
@@ -15,6 +16,7 @@ homebrew_cask_packages:
   - { name: evernote }
   - { name: firefox }
   - { name: font-fira-code }
+  - { name: fork }
   - { name: geektool }
   - { name: google-chrome }
   - { name: google-drive }
@@ -31,7 +33,9 @@ homebrew_cask_packages:
   - { name: nosql-workbench }
   - { name: numi }
   - { name: postman }
+  - { name: phpstorm }
   - { name: raindropio }
+  - { name: readdle-spark }
   - { name: sequel-pro }
   - { name: skype }
   - { name: slack }
