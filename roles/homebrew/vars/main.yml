@@ -22,6 +22,7 @@ homebrew_packages:
   - { name: gpg }
   - { name: graphviz }
   - { name: imagemagick }
+  - { name: jq }
   - { name: openjdk@11 }
   - { name: libevent }
   - { name: libyaml }
@@ -35,6 +36,7 @@ homebrew_packages:
   - { name: readline }
   - { name: sbt }
   - { name: scala }
+  - { name: spaceship }
   - { name: sqlite }
   - { name: tig }
   - { name: tree }
