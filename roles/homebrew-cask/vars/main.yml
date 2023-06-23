@@ -14,6 +14,7 @@ homebrew_cask_packages:
   - { name: docker }
   - { name: dropbox }
   - { name: evernote }
+  - { name: figma }
   - { name: firefox }
   - { name: font-fira-code }
   - { name: fork }
