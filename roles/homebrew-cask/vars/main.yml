@@ -37,6 +37,7 @@ homebrew_cask_packages:
   - { name: phpstorm }
   - { name: raindropio }
   - { name: readdle-spark }
+  - { name: raycast }
   - { name: sequel-pro }
   - { name: skype }
   - { name: slack }
