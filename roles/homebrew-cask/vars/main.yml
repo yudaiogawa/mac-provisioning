@@ -30,6 +30,7 @@ homebrew_cask_packages:
   - { name: keycastr }
   - { name: kindle }
   - { name: min }
+  - { name: miro }
   - { name: ngrok }
   - { name: nosql-workbench }
   - { name: numi }
