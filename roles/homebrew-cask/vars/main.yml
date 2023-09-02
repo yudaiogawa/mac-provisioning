@@ -39,7 +39,7 @@ homebrew_cask_packages:
   - { name: raindropio }
   - { name: readdle-spark }
   - { name: raycast }
-  - { name: sequel-pro }
+  - { name: sequel-ace }
   - { name: skype }
   - { name: slack }
   - { name: spotify }
