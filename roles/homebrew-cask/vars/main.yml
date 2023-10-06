@@ -33,6 +33,7 @@ homebrew_cask_packages:
   - { name: miro }
   - { name: ngrok }
   - { name: nosql-workbench }
+  - { name: notion }
   - { name: numi }
   - { name: postman }
   - { name: phpstorm }
