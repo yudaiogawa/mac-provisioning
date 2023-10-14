@@ -19,6 +19,7 @@ homebrew_cask_packages:
   - { name: font-fira-code }
   - { name: fork }
   - { name: geektool }
+  - { name: gitify }
   - { name: google-chrome }
   - { name: google-drive }
   - { name: google-japanese-ime }
