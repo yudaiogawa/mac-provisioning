@@ -1,11 +1,9 @@
 ---
 homebrew_cask_packages:
-  - { name: adobe-air }
   - { name: adoptopenjdk8 }
   - { name: android-studio }
   - { name: alt-tab }
   - { name: avast-security }
-  - { name: boostnote }
   - { name: clipy }
   - { name: cursor }
   - { name: db-browser-for-sqlite }
@@ -48,6 +46,5 @@ homebrew_cask_packages:
   - { name: spotify }
   - { name: tor-browser }
   - { name: tunnelblick }
-  - { name: virtualbox }
   - { name: visual-studio-code }
   - { name: xmind }
