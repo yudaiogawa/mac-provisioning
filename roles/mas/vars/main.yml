@@ -11,5 +11,6 @@ mas_applications:
   - { id: 1037126344, name: Apple Configurator }
   - { id: 1063090543, name: SnailSVN Lite SVN for Finder }
   - { id: 1295203466, name: Microsoft Remote Desktop }
+  - { id: 1258530160, name: Focus To-Do }
   - { id: 1352778147, name: Bitwarden }
   - { id: 1447043133, name: Cursor Pro }
