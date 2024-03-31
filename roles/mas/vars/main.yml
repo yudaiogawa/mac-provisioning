@@ -8,6 +8,7 @@ mas_applications:
   - { id: 688211836, name: EasyRes }
   - { id: 904280696, name: Things 3 }
   - { id: 1007457278, name: Realm Browser }
+  - { id: 766939888, name: 1Keyboard }
   - { id: 1037126344, name: Apple Configurator }
   - { id: 1063090543, name: SnailSVN Lite SVN for Finder }
   - { id: 1295203466, name: Microsoft Remote Desktop }
