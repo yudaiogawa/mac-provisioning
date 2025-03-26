@@ -42,6 +42,7 @@ homebrew_packages:
   - { name: tig }
   - { name: tree }
   - { name: tmux }
+  - { name: tty-clock }
   - { name: vim, install_options: --with-lua }
   - { name: watchman }
   - { name: yt-dlp }
