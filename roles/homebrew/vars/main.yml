@@ -4,6 +4,7 @@ homebrew_repositories:
   - homebrew/cask
   - homebrew/cask-versions
   - homebrew/cask-fonts
+  - hashicorp/tap
 
 homebrew_packages:
   - { name: anyenv }
@@ -47,3 +48,4 @@ homebrew_packages:
   - { name: watchman }
   - { name: yt-dlp }
   - { name: zsh }
+  - { name: terraform }
