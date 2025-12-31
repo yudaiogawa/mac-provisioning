@@ -8,6 +8,7 @@ homebrew_cask_packages:
   - { name: db-browser-for-sqlite }
   - { name: deepl }
   - { name: devtoys }
+  - { name: thebrowsercompany-dia }
   - { name: discord }
   - { name: docker }
   - { name: dropbox }
