@@ -2,8 +2,6 @@
 
 homebrew_repositories:
   - homebrew/cask
-  - homebrew/cask-versions
-  - homebrew/cask-fonts
   - hashicorp/tap
 
 homebrew_packages:
