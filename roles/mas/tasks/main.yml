@@ -9,6 +9,6 @@
 
 - name: Install App With Mas
   shell: 'mas install {{ item.id }}'
-  when: '"{{ item.id }}" not in mas_list.stdout'
+  when: item.id | string not in mas_list.stdout
   with_items: '{{ mas_applications }}'
   tags: [mas, mas-install]
