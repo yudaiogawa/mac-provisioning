@@ -1,6 +1,5 @@
 ---
 homebrew_cask_packages:
-  - { name: adoptopenjdk8 }
   - { name: android-studio }
   - { name: alt-tab }
   - { name: avast-security }
