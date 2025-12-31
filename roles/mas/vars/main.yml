@@ -1,17 +1,13 @@
 ---
 mas_applications:
-  - { id: 485812721, name: TweetDeck }
   - { id: 497799835, name: Xcode }
   - { id: 539883307, name: LINE }
   - { id: 571213070, name: DaVinci Resolve }
   - { id: 668208984, name: GIPHY }
   - { id: 688211836, name: EasyRes }
   - { id: 904280696, name: Things 3 }
-  - { id: 1007457278, name: Realm Browser }
   - { id: 766939888, name: 1Keyboard }
   - { id: 1037126344, name: Apple Configurator }
-  - { id: 1063090543, name: SnailSVN Lite SVN for Finder }
-  - { id: 1295203466, name: Microsoft Remote Desktop }
   - { id: 1258530160, name: Focus To-Do }
   - { id: 1352778147, name: Bitwarden }
   - { id: 1447043133, name: Cursor Pro }
