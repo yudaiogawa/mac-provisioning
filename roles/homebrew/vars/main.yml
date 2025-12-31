@@ -1,7 +1,6 @@
 ---
 
 homebrew_repositories:
-  - homebrew/cask
   - hashicorp/tap
 
 homebrew_packages:
