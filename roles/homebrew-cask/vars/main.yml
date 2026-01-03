@@ -49,4 +49,5 @@ homebrew_cask_packages:
   - { name: tor-browser }
   - { name: tunnelblick }
   - { name: visual-studio-code }
+  - { name: wezterm }
   - { name: xmind }
