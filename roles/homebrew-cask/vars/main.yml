@@ -45,6 +45,7 @@ homebrew_cask_packages:
   - { name: skype }
   - { name: slack }
   - { name: spotify }
+  - { name: tableplus }
   - { name: tor-browser }
   - { name: tunnelblick }
   - { name: visual-studio-code }
