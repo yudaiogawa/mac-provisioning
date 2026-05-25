@@ -3,6 +3,7 @@ homebrew_cask_packages:
   - { name: android-studio }
   - { name: alt-tab }
   - { name: avast-security }
+  - { name: betterdisplay }
   - { name: clipy }
   - { name: cursor }
   - { name: db-browser-for-sqlite }
