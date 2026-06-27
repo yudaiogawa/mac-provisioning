@@ -29,7 +29,6 @@ homebrew_cask_packages:
   - { name: intellij-idea }
   - { name: karabiner-elements }
   - { name: keycastr }
-  - { name: kindle }
   - { name: min }
   - { name: miro }
   - { name: ngrok }

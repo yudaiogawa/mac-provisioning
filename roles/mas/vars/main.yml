@@ -1,5 +1,6 @@
 ---
 mas_applications:
+  - { id: 302584613, name: Amazon Kindle }
   - { id: 497799835, name: Xcode }
   - { id: 539883307, name: LINE }
   - { id: 571213070, name: DaVinci Resolve }
