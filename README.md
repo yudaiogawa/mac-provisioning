@@ -15,7 +15,7 @@ make run
 Execute a specific task:
 
 ```bash
-ansible-playbook provisioning.yml --tags $tag_name
+make run-task TAG=foobar
 ```
 
 ## License
