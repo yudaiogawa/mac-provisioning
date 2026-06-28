@@ -82,3 +82,5 @@ setup_other:
   - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: false }
   - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefCharacterForYenKey, type: int, value: 1 }
   - { domain: com.apple.TextEdit, key: RichText, type: int, value: 0 }
+  - { domain: com.microsoft.VSCode, key: ApplePressAndHoldEnabled, type: bool, value: false }
+  - { domain: com.microsoft.VSCodeInsiders, key: ApplePressAndHoldEnabled, type: bool, value: false }
