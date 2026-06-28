@@ -128,6 +128,13 @@ what's ? :(
 
 #### Dock
 
+Dockの整理整頓
+
+```
+domain: com.apple.dock, key: persistent-apps, type: array
+domain: com.apple.dock, key: persistent-other, type: array
+```
+
 LaunchPad のアイコン表示数
 
 `{ domain: com.apple.dock, key: springboard-rows, type: int }`
