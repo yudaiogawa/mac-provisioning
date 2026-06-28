@@ -7,7 +7,7 @@
     type: '{{ item.type }}'
     value: '{{ item.value }}'
   with_items: '{{ setup_general }}'
-  tags: setup-general
+  tags: [osx-defaults, setup-general]
 
 - name: Setup Finder
   osx_defaults:
@@ -16,7 +16,7 @@
     type: '{{ item.type }}'
     value: '{{ item.value }}'
   with_items: '{{ setup_finder }}'
-  tags: setup-finder
+  tags: [osx-defaults, setup-finder]
   notify: killall Finder
 
 - name: Setup Dock
@@ -26,7 +26,7 @@
     type: '{{ item.type }}'
     value: '{{ item.value }}'
   with_items: '{{ setup_dock }}'
-  tags: setup-dock
+  tags: [osx-defaults, setup-dock]
   notify: killall Dock
 
 - name: Setup SystemUIServer
@@ -36,7 +36,7 @@
     type: '{{ item.type }}'
     value: '{{ item.value }}'
   with_items: '{{ setup_systemuiserver }}'
-  tags: setup-systemuiserver
+  tags: [osx-defaults, setup-systemuiserver]
   notify: killall SystemUIServer
 
 - name: Setup Other
@@ -46,4 +46,4 @@
     type: '{{ item.type }}'
     value: '{{ item.value }}'
   with_items: '{{ setup_other }}'
-  tags: setup-other
+  tags: [osx-defaults, setup-other]
